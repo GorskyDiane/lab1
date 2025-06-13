@@ -1,0 +1,18 @@
+# created by virtualenv automatically
+# Виртуальное окружение Python
+venv/
+
+# Файлы кэша Python
+*.pyc
+__pycache__/
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Файлы окружения (с паролями и секретами)
+.env
+*.env
+
+# Операционные системные файлы
+.DS_Store
