@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты обработки</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 800px; margin: auto; }
+        img { max-width: 100%; margin-bottom: 20px; border: 1px solid #ccc; }
+        .button { margin-top: 20px; display: block; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Результат обработки</h2>
+
+    <h3>Изображение с рамкой:</h3>
+    <img src="data:image/png;base64,{{ bordered_image }}" alt="Обработанное изображение">
+
+    <h3>Гистограмма цвета:</h3>
+    <img src="data:image/png;base64,{{ histogram }}" alt="Гистограмма">
+
+    <form method="GET" action="/">
+        <button class="button" type="submit">Обработать другое изображение</button>
+    </form>
+</div>
+</body>
+</html>
