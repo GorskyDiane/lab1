@@ -6,4 +6,4 @@
 
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/ваш_логин/my_flask_app.git
+git clone https://github.com/GorskyDiane/lab1
